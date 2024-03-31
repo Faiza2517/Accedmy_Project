@@ -1,0 +1,113 @@
+.signup{
+    display: flex;
+    align-items: center;
+}
+
+.color{
+    color:#00A95A !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+.text{
+    font-size: 10px;
+}
+.back{
+    background-color: aquamarine;
+}
+.logo{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.logo2{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.txt{
+    text-align: left;
+}
+.validationDiv{
+    text-align: left;
+    font-size: smaller;
+    line-height: 38px;
+}
+.col-6{
+    display: flex;
+}
+.icon{
+    font-size: small;
+}
+.txts{
+    font-size: smaller;
+    text-align: left;
+    margin-top: 10px;
+}
+.list{
+    text-align: left;
+    list-style: none;
+
+}
+.list li{
+    line-height: 40px;
+    font-weight: bold;
+}
+.list p{
+    font-size: smaller;
+}
+.data{
+    margin-top: 140px;
+    text-align: left;
+    font-size: bold;
+}
+.btn{
+    background-color:#00A95A !important ;
+    
+}
+button:not(:disabled){
+    cursor: none;
+}
+/*dashboard style*/
+
+.div1{
+margin-block-start: 50px;
+}
+.three{
+    display: flex;
+}
+.first{
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    background-color: rgb(148, 238, 167);
+    border-radius: 15px;
+}
+.first1{
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    background-color: rgb(135, 224, 224);
+    border-radius: 15px;
+
+}
+.first2{
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    background-color: #ffc1079c;
+    border-radius: 15px;
+}
+.txtst{
+    text-align: left;
+    margin: 20px;
+    font-weight: bold;
+}
+.fab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+.text{
+    margin-top: 10px;
+}
