@@ -21,7 +21,7 @@ export const EditCustomer = () => {
   const [successAlert, setSuccessAlert] = useState(false);
   const [errorAlert, setErrorAlert] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
-  const apiUrl = process.env.REACT_APP_API_URL;
+
 
   const handleSubmit = async (event) => {
     const { firstName, lastName, email, industryType, phoneNumber, profileImage } = formData;
@@ -32,7 +32,7 @@ export const EditCustomer = () => {
       const headers = {
         'x-sh-auth': token,
       };
-      const response = await axios.put(`${apiUrl}api/customer/edit_customer_by_admin/${pathname.id}`, {
+      const response = await axios.put(`http://146.190.164.174:4000/api/customer/edit_customer_by_admin/${pathname.id}`, {
         first_name: firstName,
         last_name: lastName,
         email: email,

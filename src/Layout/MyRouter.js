@@ -11,6 +11,7 @@ import { Transaction } from '../comopnent/Transaction';
 import { ForgetPassword } from '../comopnent/ForgetPassword';
 import { AddCustomer } from '../comopnent/AddCustomer';
 import { EditCustomer } from '../comopnent/EditCustomer';
+import { ChangePassword } from '../comopnent/ChangePassword';
 
 
 export const MyRouter = () => {
@@ -26,6 +27,7 @@ export const MyRouter = () => {
          <Route path='/transaction' element={<Transaction/>}/>
          <Route path='/forgetPassword' element={<ForgetPassword/>}/>
          <Route path='editCustomer/:id' element={<EditCustomer/>}/>
+         <Route path='/changepassword' element={<ChangePassword/>}/>
         
         </Route>
         <Route path='/' element={<AuthenticationLayout/>}>
